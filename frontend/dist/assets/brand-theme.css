@@ -1,0 +1,62 @@
+/**
+ * Brand theme — overrides legacy teal/green Tailwind utilities.
+ * Palette: teal #0D6986, accent blue #0085FF, surface #F1F5FB
+ */
+.bg-gray-50 {
+  background-color: #f3f1fb !important;
+}
+
+.bg-teal-50 {
+  background-color: #ede9f7 !important;
+}
+.bg-teal-600 {
+  background-color: #4b0d89 !important;
+}
+
+.text-teal-600 {
+  color: #5c1a9e !important;
+}
+.text-teal-700 {
+  color: #4b0d89 !important;
+}
+
+.from-teal-500 {
+  --tw-gradient-from: #6d28d9 var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(109 40 217 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+.to-teal-600 {
+  --tw-gradient-to: #4b0d89 var(--tw-gradient-to-position);
+}
+
+.hover\:border-teal-300:hover {
+  --tw-border-opacity: 1;
+  border-color: rgb(196 181 232 / var(--tw-border-opacity, 1)) !important;
+}
+
+/* Former “positive” greens → brand accent */
+.bg-green-500 {
+  background-color: #ff8500 !important;
+}
+.from-green-500 {
+  --tw-gradient-from: #ff8500 var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(255 133 0 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+.to-green-400 {
+  --tw-gradient-to: #ffb04d var(--tw-gradient-to-position);
+}
+.to-green-600 {
+  --tw-gradient-to: #e07000 var(--tw-gradient-to-position);
+}
+.text-green-600 {
+  color: #c45c00 !important;
+}
+
+/* Legend dots & arbitrary Tailwind color utilities */
+.bg-\[\#14b8a6\] {
+  background-color: #4b0d89 !important;
+}
+.bg-\[\#10b981\] {
+  background-color: #ff8500 !important;
+}
